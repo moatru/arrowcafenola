@@ -320,7 +320,7 @@
   .banner,
   .banner-with-header {
     background-image: url('../images/banner.jpg');
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     min-height: 50vh;
   }
@@ -330,7 +330,7 @@
   }
 
   .banner-with-header {
-    padding-top: 6rem;
+    padding-top: 1rem;
     min-height: 50vh;
   }
 
