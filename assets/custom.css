@@ -3,3 +3,15 @@
   background-repeat: no-repeat;
   background-size:contain;
 }
+
+.about {
+  background-image: url('../images/about1.jpg');
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+
+.about {
+  background-image: url('../images/coffee1.png');
+  background-repeat: no-repeat;
+  background-size:contain;
+}
