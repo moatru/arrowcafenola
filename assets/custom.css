@@ -17,5 +17,6 @@
 }
 
 .banner-overlay {
- background-color: rgba(0227,222,224,0.6)  
+ background-color: rgba(0227,222,224,0.6)
+ z-index: 2;
 }
