@@ -323,8 +323,7 @@
     background-image: url('../images/banner.jpg');
     background-size: cover;
     background-position: center;
-    min-height: 30vh;
-    max-height: 50vh;
+    height: 5rem;
   }
 
   .fixed {
