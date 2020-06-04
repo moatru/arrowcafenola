@@ -324,7 +324,7 @@
     background-image: url('../images/banner.jpg');
     background-size: cover;
     background-position: center;
-    height: 5rem;
+    min-height: 30vh;
   }
 
   .fixed {
@@ -333,7 +333,7 @@
 
   .banner-with-header {
     padding-top: 6rem;
-    min-height: 100vh;
+    min-height: 30vh;
   }
 
   .absolute-header {
