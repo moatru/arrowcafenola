@@ -319,7 +319,7 @@
     background-image: url('../images/banner.jpg');
     background-size: cover;
     background-position: center;
-    min-height: 30vh;
+    min-height: 10vh;
   }
 
   .fixed {
@@ -338,6 +338,12 @@
     right: 0;
     margin: 0;
     background: none;
+  }
+
+  .logo {
+    background-image: url('../images/logo2.png');
+    background-repeat: no-repeat;
+    background-size:contain;
   }
 
   .bg-pencils {
