@@ -1,6 +1,5 @@
 a.logo {
   background-image: url('images/logo2.png');
-  /* background-position: 15% 50%; */
   background-repeat: no-repeat;
   background-size:contain;
 }
