@@ -11,7 +11,11 @@
 }
 
 .coffee {
-  background-image: url('../images/coffee2.png');
+  background-image: url('../images/coffee1.png');
   background-repeat: no-repeat;
   background-size:contain;
+}
+
+.banner-overlay {
+ background-color: rgba(0227,222,224,0.6)  
 }
