@@ -74,6 +74,10 @@
     margin-bottom:0;
   }
 
+  .nav {
+    font-family: 'Sniglet', cursive;
+  }
+
   hr { /* this is a line element */
     border: none;
     border-bottom: 3px solid;
@@ -195,7 +199,6 @@
   nav a {
     text-decoration: none;
     color: inherit;
-    font-family: 'Sniglet', cursive;
   }
 
   header nav a,
