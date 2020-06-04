@@ -341,9 +341,10 @@
   }
 
   .logo {
-    background-image: url('../images/logo2.png');
+    /* background-image: url('../images/logo2.png'); */
     background-repeat: no-repeat;
     background-size:contain;
+    align: top right;
   }
 
   .bg-pencils {
