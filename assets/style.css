@@ -74,11 +74,6 @@
     margin-bottom:0;
   }
 
-  .nav {
-    font-size: 2rem;
-    font-family: 'Sniglet', cursive;
-  }
-
   hr { /* this is a line element */
     border: none;
     border-bottom: 3px solid;
@@ -206,6 +201,9 @@
   .inline a {
     display: inline-block;
     padding: 0.5rem;
+    font-size: 2rem;
+    font-family: 'Sniglet', cursive;
+
   }
   nav a:hover {
     color: #e67e22;
