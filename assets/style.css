@@ -130,7 +130,7 @@
   .button-solid,
   .button-inverted {
     text-decoration: none;
-    color: #F7B9B6;
+    color: #FFC933;
     border: 3px solid;
     padding: 0.6rem 2rem;
     margin-top: 1rem;
@@ -140,10 +140,12 @@
     font-weight: 800;
     border-radius: 20px;
     font-family: 'Sniglet', cursive;
+    transition: 1s;
   }
 
   .button:hover {
-    color: rgb(60, 60, 60);
+    color: #F7B9B6;
+    transition: 1s;
   }
 
   .button.inverted {   /* this is for a button on a dark background */
@@ -204,7 +206,7 @@
   header nav a,
   .inline a {
     display: inline-block;
-    padding: 0.5rem;
+    padding: 2rem;
     font-size: 1.8rem;
     font-family: 'Sniglet', cursive;
     color: #FFC933;
@@ -329,7 +331,7 @@
     background-image: url('../images/banner.jpg');
     background-size: cover;
     background-position: center;
-    min-height: 80vh;
+    min-height: 60vh;
   }
 
   .fixed {
@@ -350,12 +352,12 @@
     background: none;
   }
 
-  .logo {
+  /* .logo {
     background-image: url('../images/logo2.png');
     background-repeat: no-repeat;
     background-size:contain;
     z-index: 10;
-  }
+  } */
 
   .bg-pencils {
     background-image: url('../images/pencils.jpg');
