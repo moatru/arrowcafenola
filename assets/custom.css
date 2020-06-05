@@ -31,8 +31,16 @@ nav.fixed{
 header nav a {
   font-family: 'Sniglet', cursive;
   color: #32292F;
-  font-size: 1.8rem;
+  font-size: 2rem;
   text-transform: uppercase;
+}
+
+header nav a:hover {
+  color: #1c6ec5;
+}
+
+footer {
+  background-color: #FFC933;
 }
 
 .merch1 {
