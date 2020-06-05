@@ -27,3 +27,21 @@
  right: 0;
  botton: 0;
 }
+
+.merch1 {
+  background-image: url('../images/merch1.jpg');
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+
+.merch2 {
+  background-image: url('../images/merch3.png');
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+
+.merch3 {
+  background-image: url('../images/merch4.png');
+  background-repeat: no-repeat;
+  background-size:contain;
+}
