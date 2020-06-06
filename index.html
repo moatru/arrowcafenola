@@ -1,29 +1,30 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title> Arrow Cafe NOLA </title>
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700&family=Sniglet:wght@400;800&display=swap" rel="stylesheet">
-
-  <!-- Gridlex -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
-  </link>
-
-  <!-- Font Awesome Version 5 for Icons  -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" />
-
-  <!-- Magnific Popup for lightbox galleries   -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
-
-  <!-- CUSTOM STYLE SHEET -->
-  <link rel="stylesheet" href="/assets/style.css" />
-  <link rel="stylesheet" href="/assets/custom.css" />
-</head>
-
-<body>
+---
+layout: default
+---
 
   <!-- HEADER -->
+
+<!-- HAMBURGER MENU -->
+  <nav>
+      <div class="burger-button">
+          <span class="burger-top"></span>
+          <span class="burger-middle"></span>
+          <span class="burger-bottom"></span>
+      </div>
+       <div class="burger-menu">
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Food</a>
+          </li>
+          <li>
+            <a href="#" class="on-page">Drink</a>
+          </li>
+        <ul>
+      </div>
+    </nav>
 
   <!-- NAV -->
   <header class="grid-center fixed">
@@ -31,10 +32,10 @@
       <a href="#about"> About </a>
       <a href="#merch"> Merch </a>
     </nav>
-    <div class="col-2-middle centered">
+    <div class="col-4-middle centered">
       <a href="/">
         <h2 class="logo"> <div class="col-4-midddle centered editable">
-          <a href="/"><img src="images/logo2.png" width="150">
+          <a href="/"><img src="images/logo3.png" width="300">
           </a>
         </div> </h2>
       </a>
@@ -45,10 +46,10 @@
     </nav>
   </header>
 
-  <section class="grid header-offset"></section>
+  <!-- <section class="grid header-offset"></section> -->
 
   <!-- IMAGE BANNER -->
-  <section class="banner grid-center">
+  <section class="banner grid-center padded">
     <div class="col-6-middle centered">
       <!-- <h2 class="big-bold"> This this a heading </h2>
       <h3 class="not-bold"> This is a sub-heading </h3> -->
@@ -163,6 +164,4 @@
         </a>
       </nav>
     </div>
-  </footer
-</body>
-</html>
+  </footer>

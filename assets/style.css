@@ -216,7 +216,7 @@
     padding: 2rem;
     font-size: 1.8rem;
     font-family: 'Sniglet', cursive;
-    color: #FFC933;
+    color: (255, 201, 51, .5)
     font-weight: 800;
     text-transform: uppercase;
 
@@ -267,12 +267,12 @@
   /* Fixed Header Option */
 
   header.fixed {
-    position: fixed;
-    background-color: #f9ca24;
+    position: relative;
+    background-color: rgba(255, 201, 51);
     top:0;
     left:0;
     right:0;
-    z-index: 2;
+    z-index: 10;
     margin:0;
     padding: 1%;
     text-align: center;
