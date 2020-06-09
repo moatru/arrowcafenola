@@ -66,8 +66,8 @@ header nav a:hover {
 
 .burger-button.active .burger-middle{
   transform: rotateZ(270deg);
-  border-color: #1c6ec5;
-  background-color: #1c6ec5;
+  border-color: rgba(0,0,0,0);
+   background-color:rgba(0,0,0,0);
 }
 
 /* make sure this has the same bottom as the burger button has padding*/
