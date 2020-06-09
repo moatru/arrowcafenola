@@ -759,4 +759,27 @@
 /* This media query kicks into action at the gridlex xs breakpoint */
 @media(max-width:576px) {
 
+  h2{
+    font-size: 1.7rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    font-size: 1.1rem;
+  }
+
+  .banner {
+    min-height: 14rem;
+  }
+  .layer {
+    min-height: 14rem;
+  }
+
+  .phonelogo{
+    min-height: 14rem;
+  }
+
 } /* end media query */
