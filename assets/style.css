@@ -771,7 +771,7 @@
     font-size: 1.1rem;
   }
 
-  .banner {
+  /* .banner {
     min-height: 14rem;
   }
   .layer {
@@ -780,6 +780,6 @@
 
   .phonelogo{
     min-height: 14rem;
-  }
+  } */
 
 } /* end media query */
