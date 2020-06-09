@@ -113,9 +113,11 @@ header nav a:hover {
 
 /* SITE PHOTOS PUT IN AS BG IMAGE */
 /* .logo {
-  background-image: url('../images/logo2.png');
+  background-image: url('../images/logo4.png');
   background-repeat: no-repeat;
   background-size:contain;
+  z-index: 20;
+  position: absolute;
 } */
 
 .about {
