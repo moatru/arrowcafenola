@@ -96,6 +96,7 @@ header nav a:hover {
   padding: 15px 11px;
   font-size: 2.5rem;
   font-weight: 800;
+  line-height: 1.4;
   color: #32292F;
   font-family: 'Sniglet', cursive;
   text-transform: uppercase;
