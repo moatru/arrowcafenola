@@ -771,6 +771,10 @@
     font-size: 1.1rem;
   }
 
+  .media-flip{
+    flex-direction: row;
+  }
+
   /* .banner {
     min-height: 14rem;
   }
