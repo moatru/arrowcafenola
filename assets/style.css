@@ -772,7 +772,7 @@
   }
 
   .media-flip{
-    flex-direction: row;
+    flex-direction: column-reverse;
   }
 
   /* .banner {
