@@ -752,6 +752,9 @@
   .flex-flip{
     flex-direction: row;
   }
+  .media-flip{
+    flex-direction: column-reverse;
+  }
 
 } /* end media query */
 
