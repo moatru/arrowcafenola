@@ -15,6 +15,11 @@
     height: auto;
   }
 
+  .menu img{
+    max-width: 65%;
+    height: auto;
+  }
+
   body {
     font-family: 'Open Sans', sans-serif;
     color: #32292F;
