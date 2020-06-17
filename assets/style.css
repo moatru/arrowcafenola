@@ -752,9 +752,14 @@
   .flex-flip{
     flex-direction: row;
   }
-  
+
   .media-flip{
     flex-direction: column-reverse;
+  }
+
+  .menu img{
+    max-width: 100%;
+    height: auto;
   }
 
 } /* end media query */
@@ -777,6 +782,11 @@
 
   .media-flip{
     flex-direction: column-reverse;
+  }
+
+  .menu img{
+    max-width: 100%;
+    height: auto;
   }
 
   /* .banner {
