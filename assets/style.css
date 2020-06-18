@@ -342,7 +342,7 @@
   .banner-with-header {
     background-image: url('../images/banner4.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: 50% 20%;
     min-height: 18rem;
   }
 
