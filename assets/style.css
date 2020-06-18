@@ -57,7 +57,7 @@
 
   h2, h3, h4, h5, h6 {
     line-height: 1;
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.5rem;
     font-family: 'Sniglet', cursive;
     text-transform: uppercase;
   }
@@ -68,7 +68,7 @@
   p   { font-size: 1rem;  }
 
   p, ul {
-     margin-bottom: 0.8rem;
+     margin-bottom: 0.5rem;
   }
 
   /* this makes sure that the last element in any container doesn't have margin-bottom */
@@ -547,7 +547,7 @@
   }
 
   .email-signup .button-solid {
-    padding: 0.5rem;
+    padding: 0.8rem;
     border-radius: 0;
     font-size: 1rem;
   }
