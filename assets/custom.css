@@ -112,6 +112,14 @@ header nav a:hover {
     display: block;
 } */
 
+/* FOOTER SOCIALS MENU */
+nav a,
+.social a {
+  display: inline-block;
+  padding: 1rem 2rem 0 0
+  font-weight: 800;
+}
+
 /* SITE PHOTOS PUT IN AS BG IMAGE */
 /* .logo {
   background-image: url('../images/logo4.png');
@@ -120,6 +128,7 @@ header nav a:hover {
   z-index: 20;
   position: absolute;
 } */
+
 
 .center {
   display: block;
