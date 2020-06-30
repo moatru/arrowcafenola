@@ -113,8 +113,8 @@ header nav a:hover {
 } */
 
 /* FOOTER SOCIALS MENU */
-nav a,
-.social a {
+
+nav .social{
   display: inline-block;
   padding: 1rem 2rem 0 0
   font-weight: 800;
