@@ -137,10 +137,18 @@ footer nav a,
   margin-right: auto;
 }
 
-.about {
-  background-image: url('../images/about1.jpg');
+.hotcoffee {
+  background-image: url('../images/Hot_Coffee.png');
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size:20%;
+  background-position: right top;
+}
+
+.snowball {
+  background-image: url('../images/snowball.png');
+  background-repeat: no-repeat;
+  background-size:20%;
+  background-position: right top;
 }
 
 .coffee {
