@@ -140,15 +140,22 @@ footer nav a,
 .hotcoffee {
   background-image: url('../images/Hot_Coffee.png');
   background-repeat: no-repeat;
-  background-size:20%;
-  background-position: right top;
+  background-size:22%;
+  background-position: 85% 10%;
 }
 
 .snowball {
   background-image: url('../images/Snowball.png');
   background-repeat: no-repeat;
-  background-size: 20%;
-  background-position: right bottom;
+  background-size: 22%;
+  background-position: right 15%;
+}
+
+.arrows {
+  background-image: url('../images/arrow2.png');
+  background-repeat: no-repeat;
+  background-size: 22%;
+  background-position: 75% 80%;
 }
 
 .coffee {

@@ -767,6 +767,10 @@
     height: auto;
   }
 
+.hotcoffee, .snowball, .arrows {
+  background-size: 15%
+}
+
 } /* end media query */
 
 
