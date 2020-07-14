@@ -140,28 +140,28 @@ footer nav a,
 .hotcoffee {
   background-image: url('../images/Hot_Coffee.png');
   background-repeat: no-repeat;
-  background-size:22%;
-  background-position: 85% 10%;
+  background-size: 35%;
+  background-position: right 10%;
 }
 
 .snowball {
   background-image: url('../images/Snowball.png');
   background-repeat: no-repeat;
-  background-size: 22%;
-  background-position: right 15%;
+  background-size: contain;
+  background-position: right top;
 }
 
 .arrows {
-  background-image: url('../images/arrow2.png');
+  background-image: url('../images/arrows.png');
   background-repeat: no-repeat;
-  background-size: 22%;
-  background-position: 75% 80%;
+  background-size: 40%;
+  background-position: right 80%;
 }
 
 .coffee {
   background-image: url('../images/coffee1.png');
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size:40%;
 }
 
 /* MERCH PHOTOS CURRENTLY 3 */
@@ -185,4 +185,19 @@ footer nav a,
 
 footer {
   background-color: #FFC933;
+}
+
+/* This media query kicks into action at the gridlex m breakpoint */
+@media(max-width:1024px) {
+  .hotcoffee, .arrows {
+    background-size: 30%;
+  }
+
+}
+
+/* This media query kicks into action at the gridlex sm breakpoint */
+@media(max-width:768px) {
+  .hotcoffee, .arrows {
+    background-size: 25%;
+  }
 }
