@@ -187,13 +187,13 @@ footer nav a,
   background-size:contain;
 }
 
-/* FOOTER BEANS ILLUSTRATION */
+/* FOOTER & BEANS ILLUSTRATION */
 footer {
   background-color: #FFC933;
   background-image: url('../images/Coffee_Beans.png');
   background-repeat: no-repeat;
   background-size: 18%;
-  background-position: 90% 90%;
+  background-position: 90% 80%;
 }
 
 /* This media query kicks into action at the gridlex m breakpoint */
