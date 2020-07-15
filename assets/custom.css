@@ -163,7 +163,7 @@ footer nav a,
   background-image: url('../images/Snowball.png');
   background-repeat: no-repeat;
   background-size: 25%;
-  background-position: 90% top;
+  background-position: 95% top;
 }
 
 .coffee {
@@ -222,7 +222,7 @@ footer {
     background-image: url('../images/Snowball.png');
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: 90% top;
+    background-position: left% top;
   }
 
   .snowballBIG {
