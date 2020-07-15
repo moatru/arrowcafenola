@@ -144,18 +144,26 @@ footer nav a,
   background-position: right 10%;
 }
 
-.snowball {
-  background-image: url('../images/Snowball.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right top;
-}
 
 .arrows {
   background-image: url('../images/arrows.png');
   background-repeat: no-repeat;
   background-size: 40%;
   background-position: right 80%;
+}
+
+.beans {
+  background-image: url('../images/Coffee_Beans.png');
+  background-repeat: no-repeat;
+  background-size: 15%;
+  background-position: 10% top;
+}
+
+.snowballBIG {
+  background-image: url('../images/Snowball.png');
+  background-repeat: no-repeat;
+  background-size: 28%;
+  background-position: 90% top;
 }
 
 .coffee {
@@ -185,6 +193,10 @@ footer nav a,
 
 footer {
   background-color: #FFC933;
+  background-image: url('../images/Coffee_Beans.png');
+  background-repeat: no-repeat;
+  background-size: 18%;
+  background-position: 90% 90%;
 }
 
 /* This media query kicks into action at the gridlex m breakpoint */
@@ -193,11 +205,27 @@ footer {
     background-size: 30%;
   }
 
+  .beans {
+    background-size: 18%;
+    background-position: left top;
+  }
+
 }
 
 /* This media query kicks into action at the gridlex sm breakpoint */
 @media(max-width:768px) {
   .hotcoffee, .arrows {
     background-size: 25%;
+  }
+
+  .snowball {
+    background-image: url('../images/Snowball.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 90% top;
+  }
+
+  .snowballBIG {
+    background-size: 0%;
   }
 }
