@@ -137,6 +137,8 @@ footer nav a,
   margin-right: auto;
 }
 
+/* ILLUSTRATIONS AS BG IMAGES */
+
 .hotcoffee {
   background-image: url('../images/Hot_Coffee.png');
   background-repeat: no-repeat;
@@ -163,13 +165,7 @@ footer nav a,
   background-image: url('../images/Snowball.png');
   background-repeat: no-repeat;
   background-size: 25%;
-  background-position: 95% top;
-}
-
-.coffee {
-  background-image: url('../images/coffee1.png');
-  background-repeat: no-repeat;
-  background-size:40%;
+  background-position: right center;
 }
 
 /* MERCH PHOTOS CURRENTLY 3 */
@@ -191,6 +187,7 @@ footer nav a,
   background-size:contain;
 }
 
+/* FOOTER BEANS ILLUSTRATION */
 footer {
   background-color: #FFC933;
   background-image: url('../images/Coffee_Beans.png');
@@ -222,7 +219,7 @@ footer {
     background-image: url('../images/Snowball.png');
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: left% top;
+    background-position: right center;
   }
 
   .snowballBIG {
