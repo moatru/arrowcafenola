@@ -204,7 +204,7 @@ footer {
 
   .beans {
     background-size: 18%;
-    background-position: left top;
+    background-position: 2% top;
   }
 
 }
@@ -224,5 +224,10 @@ footer {
 
   .snowballBIG {
     background-size: 0%;
+  }
+
+  .beans {
+    background-size: 22%;
+    background-position: 3% top;
   }
 }
