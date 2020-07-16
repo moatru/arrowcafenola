@@ -73,7 +73,16 @@
   }
 
   .credit {
-    font-size: .5rem;
+    font-size: 1rem;
+    padding: 1.5rem 0 0 0;
+  }
+
+  .creditlogo {
+    font-size: 2rem;
+    color: #100113;
+    font-family: 'Modak', cursive;
+    text-transform: uppercase;
+    font-weight: 400;
     padding: 1.5rem 0 0 0;
   }
 
