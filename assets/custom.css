@@ -196,6 +196,8 @@ footer {
   background-position: 90% 80%;
 }
 
+
+
 /* This media query kicks into action at the gridlex m breakpoint */
 @media(max-width:1024px) {
   .hotcoffee, .arrows {

@@ -73,18 +73,27 @@
   }
 
   .credit {
-    font-size: .7rem;
-    padding: 1.5rem 0 0 0;
+    font-size: .9rem;
+    padding: 2rem 0 0 0;
   }
 
   .creditlogo {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
     color: #100113;
     font-family: 'Modak', cursive;
     text-transform: uppercase;
     font-weight: 400;
-    padding: 1.5rem 0 0 0;
+    text-decoration: none;
+    transition: all 1s;
   }
+
+.creditlogo:hover {
+  text-shadow: 3px 3px 5px #fadede;
+}
+
+
+}
 
   /* this makes sure that the last element in any container doesn't have margin-bottom */
   h2:last-child,
@@ -750,6 +759,26 @@
 
 /* This media query kicks into action at the gridlex sm breakpoint */
 @media(max-width:768px) {
+
+  .credit {
+    font-size: .7rem;
+    padding: 2rem 0 0 0;
+  }
+
+  .creditlogo {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: #100113;
+    font-family: 'Modak', cursive;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-decoration: none;
+    transition: all 1s;
+  }
+
+  .creditlogo:hover {
+    text-shadow: 2px 2px 4px #fadede;
+  }
 
   .mob-hide {
     display: none;
