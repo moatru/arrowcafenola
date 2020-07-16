@@ -168,6 +168,12 @@ footer nav a,
   background-position: right center;
 }
 
+/* MENU IMAGE */
+.menu img{
+  max-width: 65%;
+  height: auto;
+}
+
 /* MERCH PHOTOS CURRENTLY 3 */
 .merch1 {
   background-image: url('../images/merch1.jpg');
